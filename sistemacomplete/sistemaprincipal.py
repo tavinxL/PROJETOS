@@ -24,6 +24,7 @@ while True:
         lerarquivo4(arq)
     elif resposta == 5:
         print('SAINDO DO SISTEMA, ATÉ MAIS...')
+        sleep(1)
         break
     else:
         print('\033[0;31mESCOLHA UMA OPÇÃO VÁLIDA\033[m')

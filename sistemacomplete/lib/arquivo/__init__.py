@@ -37,6 +37,7 @@ def lerarquivo1(nome):
                 print('ERRO AO LER O ARQUIVO')
             else:
                 cabecalho('HISTORICO CALCULADORA')
+                a.seek(0)
                 for linha in a:
                     print(linha.strip())
             finally:
@@ -63,6 +64,7 @@ def lerarquivo2(nome):
                 print('ERRO AO LER O ARQUIVO')
             else:
                 cabecalho('HISTORICO CALCULADORA')
+                a.seek(0)
                 for linha in a:
                     print(linha.strip())
             finally:
@@ -89,6 +91,7 @@ def lerarquivo3(nome):
                 print('ERRO AO LER O ARQUIVO')
             else:
                 cabecalho('HISTORICO CALCULADORA')
+                a.seek(0)
                 for linha in a:
                     print(linha.strip())
             finally:
@@ -115,6 +118,7 @@ def lerarquivo4(nome):
                 print('ERRO AO LER O ARQUIVO')
             else:
                 cabecalho('HISTORICO CALCULADORA')
+                a.seek(0)
                 for linha in a:
                     print(linha.strip())
             finally:
